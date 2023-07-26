@@ -1,0 +1,99 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Styles for the selected movie details */
+
+.selected-movie {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.selected-movie img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.selected-movie h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.selected-movie p {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.selected-movie button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-movie button:hover {
+  background-color: #555;
+}
