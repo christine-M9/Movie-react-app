@@ -1,7 +1,7 @@
 /* App.css */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -17,8 +17,7 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  color: #a80808;
   text-align: center;
   padding: 10px 0;
 }
@@ -34,11 +33,11 @@ h1 {
 table {
   width: 100%;
   border-collapse: collapse;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(94, 196, 22, 0.1);
 }
 
 thead {
-  background-color: #333;
+  background-color: #8e1616;
   color: #fff;
 }
 
@@ -76,7 +75,7 @@ tbody tr:hover {
 .selected-movie h2 {
   margin: 0;
   margin-bottom: 10px;
-  color: #333;
+  color: #6df185;
 }
 
 .selected-movie p {
@@ -87,7 +86,7 @@ tbody tr:hover {
 
 .selected-movie button {
   padding: 8px 16px;
-  background-color: #333;
+  background-color: #990c0c;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -95,5 +94,53 @@ tbody tr:hover {
 }
 
 .selected-movie button:hover {
+  background-color: #555;
+}
+/* Styles for the Add New Movie form */
+
+.add-movie-form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-movie-form h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-movie-form label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.add-movie-form input,
+.add-movie-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-movie-form input[type='number'] {
+  width: 50%;
+}
+
+.add-movie-form button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-movie-form button:hover {
   background-color: #555;
 }
